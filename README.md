@@ -10,5 +10,6 @@ People like me are sometime confused about their actual age or how old they are,
 ## Authors  
 - [@VaishnavPalve](https://www.github.com/palvevaishnav)
 
-* This is my first NextJS project. very basic though. 
+This is my first NextJS project. very basic though.
+
 Date : 9 March, 2024
