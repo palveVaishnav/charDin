@@ -56,7 +56,7 @@ export default function Home() {
 
     return (
         <div className="bg-gray-800 text-white font-serif">
-            <div className="bg-gray-900 w-full p-2 flex justify-between shadow-md shadow-zinc-500">
+            <div className="fixed w-screen bg-gray-900 p-2  flex justify-between shadow-md shadow-zinc-500">
                 <div className="flex gap-2 p-2">
                     <a href="#" className=" p-2 border rounded-md border-orange-500 bg-orange-500">CharDin</a>
                 </div>
@@ -65,9 +65,11 @@ export default function Home() {
                     <a href="#" className=" p-1 border rounded-md border-green-500 hover:bg-green-500">Repoository</a>
                     <a href="#" className=" p-1 border rounded-md border-green-500 hover:bg-green-500">Why?</a>
                     <a href="#" className=" p-1 border rounded-md border-green-500 hover:bg-green-500">Contact</a>
+                    <a></a>
+                    <a></a>
                 </div>
             </div>
-            <div className="my-20 text-center">
+            <div className="py-20 text-center">
                 <div className="grid p-4 w-screen font-serif gap-4 place-content-center text-3xl">
                     <h2 className="">Enter Birth Date </h2>
                     <input
@@ -78,7 +80,7 @@ export default function Home() {
                     />
                 </div>
             </div>
-            <div className="m-6 p-2 grid gap-6 grid-cols-2 h-dvh">
+            <div className="mx-6 p-2 grid gap-6 grid-cols-2">
                 <div className="grid border rounded-lg border-orange-300 bg-green-300 text-black place-content-center text-center p-4 ">
                     <div className="text-5xl">
                         {years}
